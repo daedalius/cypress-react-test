@@ -1,0 +1,30 @@
+{
+  "name": "cypress-react-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "test:ci": "cypress run --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-datepicker": "^2.14.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@cypress/webpack-preprocessor": "^5.1.2",
+    "@testing-library/cypress": "^6.0.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "cypress": "^4.5.0",
+    "cypress-react-unit-test": "^4.0.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0"
+  }
+}
